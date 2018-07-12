@@ -1,0 +1,11 @@
+nav {
+    background-color: var(--color-primary);
+    .nav-wrapper {
+        ul li div {
+            font-size: 20px;
+            cursor: pointer;
+            transition: all ease 0.1;
+            padding: 0 10px;
+        }
+    }
+}

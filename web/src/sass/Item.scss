@@ -1,0 +1,105 @@
+.item {
+    &--detail {
+        &__Body {
+            .changeImage {
+                text-align: center;
+                font-size: 20px;
+                cursor: pointer;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .itemImageForm {
+                height: 200px;
+                max-width: 100%;
+                border-radius: 5px;
+
+                &.placeholder {
+                    position: relative;
+                    width: 200px;
+                    margin: 0 auto;
+                    border: 2px dashed var(--color-black);
+                    margin-right: 25px;
+                    margin-top: 25px;
+                    cursor: pointer;
+
+                    i {
+                        font-size: 80px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+
+                    div {
+                        font-size: 20px;
+                        position: absolute;
+                        width: 100%;
+                        text-align: center;
+                        bottom: 10px;
+                    }
+                }
+            }
+
+            textarea {
+                height: 150px;
+            }
+        }
+
+        &__footer {
+            .save-btn {
+                float: right;
+            }
+        }
+    }
+
+    &--view {
+        &__Body {
+            &__image {
+                width: 100%;
+            }
+
+            &__info {
+                &__name {
+                    font-size: 30px;
+                }
+                &__description {
+                    font-size: 15px;
+                }
+                &__ends {
+                    font-size: 15px;
+                }
+
+                &__bid {
+                    width: 100%;
+
+                    &__current {
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin-right: 20px;
+                    }
+                    &__input {
+                        display: inline-block;
+                        vertical-align: middle;
+
+                        &--number {
+                            display: inline-block;
+                            vertical-align: middle;
+                            input {
+                                height: 30px!important;
+                                margin: 0!important;
+                            }
+                            margin-right: 5px;
+                        }
+
+                        &--btnAdd {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

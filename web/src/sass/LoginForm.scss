@@ -1,0 +1,41 @@
+.loginForm {
+    max-width: 400px;
+
+    &__Body {
+        position: relative;
+        &__avatar {
+            height: 150px;
+            text-align: center;
+
+            img {
+                height: 150px;
+                background-color: var(--color-primary);
+                border-radius: 50%;
+            }
+        }
+
+        h1 {
+            margin: 10px 0;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    
+        .input-field {
+            margin: 20px 0;
+
+            label {
+                font-size: 20px;
+                transform: translateY(0);
+
+                &:not(.label-icon).active {
+                    transform: translateY(-18px) scale(0.8);
+                }
+            }
+        }
+    
+        .btn {
+            width: 100%;
+            background-color: var(--color-primary);
+        }
+    }
+}

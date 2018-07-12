@@ -1,0 +1,17 @@
+:root {
+    --color-white: #ffffff;
+    --color-cream: #eceff4;
+    --color-cream-dark: #e8e8e8;
+    --color-black: #090909;
+    --color-blue: #0081d5;
+    --color-green: #2d926a;
+    --color-red: #d1335b;
+    --color-orange: #ff9947;
+
+    --color-primary: var(--color-red);
+    --color-primary-light: #ff6189;
+    --color-secondary: var(--color-blue);
+
+    --color-background: var(--color-primary);
+    --color-border: #ADB9C9;
+}
